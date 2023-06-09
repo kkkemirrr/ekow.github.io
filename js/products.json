@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "title": "Пицца с грибами",
+        "itemsInBox": 1,
+        "weight": 1000,
+        "price": 460,
+        "imgSrc": "pizza-griby.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Пицца ассорти",
+        "itemsInBox": 1,
+        "weight": 1100,
+        "price": 500,
+        "imgSrc": "pizza-assorti.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Пицца пепперони",
+        "itemsInBox": 1,
+        "weight": 950,
+        "price": 440,
+        "imgSrc": "pizza-pepperoni.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Пицца с помидорами",
+        "itemsInBox": 1,
+        "weight": 870,
+        "price": 450,
+        "imgSrc": "pizza-tomato.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Бургер Куриный «Двойной»",
+        "itemsInBox": 1,
+        "weight": 310,
+        "price": 220,
+        "imgSrc": "chicen-double-burger.avif"
+    },
+    {
+        "id": 6,
+        "title": "Бургер Говяжий «Двойной»",
+        "itemsInBox": 1,
+        "weight": 250,
+        "price": 210,
+        "imgSrc": "best-burger.avif"
+    },
+    {
+        "id": 7,
+        "title": "Бургер «Классический»",
+        "itemsInBox": 1,
+        "weight": 195,
+        "price": 165,
+        "imgSrc": "humburger.avif"
+    },
+    {
+        "id": 8,
+        "title": "Бургер «Сырный»",
+        "itemsInBox": 1,
+        "weight": 205,
+        "price": 190,
+        "imgSrc": "cheese-burger.avif"
+    },
+    {
+        "id": 9,
+        "title": "Филадельфия хит рол",
+        "itemsInBox": 6,
+        "weight": 180,
+        "price": 300,
+        "imgSrc": "california-hit.jpg"
+    },
+    {
+        "id": 10,
+        "title": "Запеченный ролл «Калифорния»",
+        "itemsInBox": 6,
+        "weight": 182,
+        "price": 230,
+        "imgSrc": "zapech-california.jpg"
+    },
+    {
+        "id": 11,
+        "title": "Филадельфия",
+        "itemsInBox": 6,
+        "weight": 230,
+        "price": 320,
+        "imgSrc": "philadelphia.jpg"
+    },
+    {
+        "id": 12,
+        "title": "Калифорния темпура",
+        "itemsInBox": 6,
+        "weight": 205,
+        "price": 250,
+        "imgSrc": "california-tempura.jpg"
+    },
+    {
+        "id": 13,
+        "title": "Салат «Фетакса»",
+        "itemsInBox": 1,
+        "weight": 170,
+        "price": 170,
+        "imgSrc": "chess-sal.avif"
+    },  
+    {
+        "id": 14,
+        "title": "Салат «оливье»",
+        "itemsInBox": 1,
+        "weight": 165,
+        "price": 180,
+        "imgSrc": "olivie-sal.avif"
+    } ,
+    {
+        "id": 15,
+        "title": "Салат «Цезарь»",
+        "itemsInBox": 1,
+        "weight": 230,
+        "price": 160,
+        "imgSrc": "fresh-sal.avif"
+    },
+    {
+        "id": 16,
+        "title": "Салат «Легкий перекус»",
+        "itemsInBox": 1,
+        "weight": 180,
+        "price": 150,
+        "imgSrc": "grib-sal.avif"
+    },
+    {
+        "id": 17,
+        "title": "Coca-Cola",
+        "itemsInBox": 1,
+        "weight": 500,
+        "price": 80,
+        "imgSrc": "coca-cola.avif"
+    },  
+    {
+        "id": 18,
+        "title": "Коктейль «Молочно фруктойвый»",
+        "itemsInBox": 1,
+        "weight": 450,
+        "price": 150,
+        "imgSrc": "fruc-kok.avif"
+    },
+    {
+        "id": 19,
+        "title": "Сок «Апельсиновый»",
+        "itemsInBox": 1,
+        "weight": 600,
+        "price": 160,
+        "imgSrc": "orange.avif"
+    },
+    {
+        "id": 20,
+        "title": "Чай «Ягодный»",
+        "itemsInBox": 1,
+        "weight": 1000,
+        "price": 200,
+        "imgSrc": "berry-tea.avif"
+    } 
+]

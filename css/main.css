@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body, html {
+	background-color: #F8F9F9;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-image: url('https://img.freepik.com/premium-photo/quail-soup-with-eggs-and-scrambled-eggs-top-view-free-space-for-your-text_187166-14163.jpg?w=1380');
+}
+.first-header{
+	font-family: Montserrat, sans-serif;
+	display: flex;
+	margin: 50px 0 0 205px;
+}
+.call-name{
+	margin: 12px 0 0 20px;
+}
+.links{
+	margin: 12px 0 0 45px;
+	width: 140px;
+	display: flex;
+	justify-content: space-between;
+}
+.information{
+	margin: 15px 0 0 380px;
+	width: 300px;
+	display: flex;
+	justify-content: space-between;
+}
+.line{
+	width: 1px;
+	height: 40px;
+	background: rgb(81, 79, 79);
+	margin: 10px 0 0 35px;
+}
+h3, h4 {
+	font-family: 'Merriweather', serif;
+
+}
+.close{
+	margin: -700px 200px 0 0;
+}
+.container {
+	padding: 16px;
+}
+
+  /* Full-width input fields */
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+	background-color: #ddd;
+	outline: none;
+}
+
+  /* Overwrite default styles of hr */
+hr {
+	border: 1px solid #f1f1f1;
+	margin-bottom: 25px;
+}
+
+  /* Set a style for the submit/register button */
+.registerbtn {
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+}
+
+.registerbtn:hover {
+	opacity:1;
+}
+
+  /* Add a blue text color to links */
+a {
+	color: dodgerblue;
+}
+
+  /* Set a grey background color and center the text of the "sign in" section */
+.signin {
+	background-color: #f1f1f1;
+	text-align: center;
+}
+.header {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.product-img {
+	width: 265px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.item-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+	font-family: 'Merriweather', serif;
+	height: 70px;
+}
+
+.details-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 25px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.items {
+	font-family: 'Merriweather', serif;
+	background: #f2ede7;
+	border-radius: 8px;
+	width: 120px;
+	display: flex;
+	font-size: 18px;
+	height: 30px;
+	overflow: hidden;
+}
+
+.items__control {
+	width: 40px;
+	cursor: pointer;
+	transition: 0.2s ease-in;
+	text-align: center;
+}
+
+.items__control:hover {
+    background: #eb5a1e;
+    color: #FFF;
+}
+
+.items__current {
+	width: 40px;
+}
+
+/* items--small */
+.items.items--small {
+	width: 90px;
+	font-size: 16px;
+	height: 26px;
+	text-align: center;
+}
+
+.items.items--small .items__control {
+	width: 30px;
+}
+
+.items.items--small .items__current {
+	width: 30px;
+}
+
+.price {
+	text-align: left;
+}
+
+.price__weight {
+	color: #6c757d!important;
+	font-size: 80%;
+	line-height: 1;
+}
+
+.price__currency {
+	font-size: 1.5rem;
+	font-weight: 600;
+	line-height: 1;
+}
+
+.btn-outline-warning {
+    color: #eb5a1e;
+    border-color: #eb5a1e;
+}
+
+.btn-outline-warning:hover {
+    color: #FFF;
+    background-color: #eb5a1e;
+    border-color: #eb5a1e;
+}
+
+.cart-item {
+
+}
+
+.cart-item__top {
+	display: flex;
+	align-items: flex-start;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #dee2e6;
+	margin-bottom: 15px;
+}
+
+.cart-item__img  {
+
+}
+
+.cart-item__img img {
+	max-width: 100px;
+	height: auto;
+}
+
+.cart-item__desc {
+	padding-top: 15px;
+	padding-left: 15px;
+}
+
+.cart-item__title {
+	font-family: 'Merriweather', serif;
+	font-size: 16px;
+    line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+.cart-item__weight {
+    color: #6c757d!important;
+    font-size: 80%;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+.cart-item__details {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.cart-item__details .price__currency {
+	font-size: 18px;
+	margin-left: 15px;
+}
+
+.cart-total {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.delivery-cost {
+
+}
+
+.free {
+	color: #0EA107;
+}
+
+.total-price {
+	color: #EB5A1E;
+}
+
+.rouble {
+	color: #EB5A1E;
+}
+
+.none {
+	display: none;
+}
+#elastic{
+	display: block;
+	width: 400px;
+	height: 25px;
+	margin: 0 0 0 205px;
+	background: rgb(212, 199, 199);
+}
+.loopa{
+	margin: -30px 0 0 615px;
+}
